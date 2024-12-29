@@ -26,7 +26,7 @@ const testimonials = [
     img: '/cars/3.jpg',
     title: 'BYD DOLPHIN',
     quote:
-      'With its spacious interior, long range, and advanced features, the BYD DOLPHIN is the perfect car for city dwellers and eco-conscious drivers alike.',
+      'With its spacious interior, the BYD DOLPHIN is the perfect car for city dwellers and eco-conscious drivers alike.',
   },
   {
     img: '/cars/4.jpg',

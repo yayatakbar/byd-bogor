@@ -33,18 +33,15 @@ function Hero() {
           }
         />
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
-          <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-white sm:text-7xl/[0.8] md:text-8xl/[0.8]">
-            BYD Kota Bogor
+          <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-white sm:text-7xl/[0.8] md:text-5xl/[0.8]">
+          BYD Arista Bogor
           </h1>
           <p className="mt-8 max-w-2xl text-xl/7 font-medium text-white/75 sm:text-2xl/8">
           Dealer Resmi BYD di Kota Bogor memberikan pelayanan dan informasi terkini seputar mobil listrik BYD. Berkomitmen memberikan pengalaman terbaik dalam memilih mobil listrik.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button
-              href="#"
-              className="bg-white text-black data-[hover]:bg-white/80"
-            >
-              Get started
+          <Button variant="secondary" href="/pricing" className="text-white">
+              See pricing
             </Button>
             <Button variant="secondary" href="/pricing" className="text-white">
               See pricing
@@ -59,17 +56,17 @@ function Hero() {
 function BentoSection() {
   return (
     <Container>
-      <Heading as="h3" className="mt-2 max-w-3xl">
-        Temukan Masa Depan Mobilitas
+      <Heading as="h3" className="mt-2 max-w-4xl">
+      Memperkenalkan Teknologi Blade Battery
       </Heading>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
-          eyebrow="Speed"
-          title="Built for power users"
+          eyebrow="Battery"
+          title="Teknologi Blade Battery"
           description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-1.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-1.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
@@ -78,7 +75,7 @@ function BentoSection() {
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-2.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-2.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />
@@ -88,7 +85,7 @@ function BentoSection() {
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-3.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-3.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />
@@ -98,7 +95,7 @@ function BentoSection() {
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-4.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-4.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />
@@ -108,7 +105,7 @@ function BentoSection() {
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-5.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-5.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />
@@ -118,7 +115,7 @@ function BentoSection() {
           title="Get the furthest reach"
           description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
           graphic={
-            <div className="h-80 bg-[url(/cars/interior-6.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-6.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />

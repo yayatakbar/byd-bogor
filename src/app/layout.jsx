@@ -3,7 +3,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Radiant',
-    default: 'Radiant - Close every deal',
+    default: 'BYD Arista Bogor',
   },
 }
 

@@ -58,7 +58,7 @@ function SocialLinks() {
   return (
     <>
       <Link
-        href="https://www.facebook.com/muhammad.fidiavif"
+        href="https://www.facebook.com/share/1AsXVeKBtT/"
         target="_blank"
         aria-label="Contact sales on Facebook"
         className="text-gray-950 data-[hover]:text-gray-950/75"
@@ -66,7 +66,7 @@ function SocialLinks() {
         <SocialIconFacebook className="size-4" />
       </Link>
       <Link
-        href="https://www.instagram.com/fidiavif"
+        href="https://www.instagram.com/apip_byd?igsh=MXMydHlydGlsd2Z4eg=="
         target="_blank"
         aria-label="Contact sales on Instagram"
         className="text-gray-950 data-[hover]:text-gray-950/75"
