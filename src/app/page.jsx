@@ -62,7 +62,6 @@ function BentoSection() {
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
-          eyebrow="Battery"
           title="Teknologi Blade Battery"
           description="Blade Battery lebih aman, lebih efisien, dan lebih terjangkau daripada baterai lain."
           graphic={
@@ -71,7 +70,6 @@ function BentoSection() {
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
         <BentoCard
-          eyebrow="Source"
           title="Ultra Safe"
           description="Blade Battery menjadi satu-satunya yang lolos melalui serangkaian tes, salah satunya Nail Penetration Test, yang menguji kemampuan mengeliminasi potensi terbakarnya baterai saat kecelakaan."
           graphic={
@@ -81,8 +79,7 @@ function BentoSection() {
         />
 
         <BentoCard
-          eyebrow="Source"
-          title=" Ultra strength"
+          title=" Ultra Strength"
           description="Baterai ini juga berhasil melewati uji kekuatan saat dilindas truk seberat 46 ton tanpa kebocoran, deformasi, atau asap."
           graphic={
             <div className="h-80 bg-[url(/cars/battery-2.jpg)] bg-cover bg-no-repeat" />
@@ -91,7 +88,6 @@ function BentoSection() {
         />
 
         <BentoCard
-          eyebrow="Source"
           title="Ultra Long Range"
           description="Blade Battery BYD mampu membawa mobil dengan jarak tempuh yang sangat jauh dalam sekali charge."
           graphic={
@@ -101,7 +97,6 @@ function BentoSection() {
         />
 
         <BentoCard
-          eyebrow="Source"
           title=" Ultra Long Lifespan"
           description="Blade Battery BYD adalah baterai lithium-ion yang memiliki rentang hidup sekitar 3.000 kali charge atau 1.200.000 km."
           graphic={
@@ -111,7 +106,6 @@ function BentoSection() {
         />
 
         <BentoCard
-          eyebrow="Source"
           title="Super Power"
           description="Mampu mengisi baterai dengan sangat cepat, dan memberikan tenaga yang maksimal saat berkendara."
           graphic={
