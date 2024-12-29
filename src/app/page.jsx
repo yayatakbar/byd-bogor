@@ -64,16 +64,26 @@ function BentoSection() {
         <BentoCard
           eyebrow="Battery"
           title="Teknologi Blade Battery"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          description="Blade Battery lebih aman, lebih efisien, dan lebih terjangkau daripada baterai lain."
           graphic={
-            <div className="h-80 bg-[url(/cars/battery-1.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-3.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title="Ultra Safe"
+          description="Blade Battery menjadi satu-satunya yang lolos melalui serangkaian tes, salah satunya Nail Penetration Test, yang menguji kemampuan mengeliminasi potensi terbakarnya baterai saat kecelakaan."
+          graphic={
+            <div className="h-80 bg-[url(/cars/battery-6.jpg)] bg-cover bg-no-repeat" />
+          }
+          className="lg:col-span-2"
+        />
+
+        <BentoCard
+          eyebrow="Source"
+          title=" Ultra strength"
+          description="Baterai ini juga berhasil melewati uji kekuatan saat dilindas truk seberat 46 ton tanpa kebocoran, deformasi, atau asap."
           graphic={
             <div className="h-80 bg-[url(/cars/battery-2.jpg)] bg-cover bg-no-repeat" />
           }
@@ -82,28 +92,8 @@ function BentoSection() {
 
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
-          graphic={
-            <div className="h-80 bg-[url(/cars/battery-3.jpg)] bg-cover bg-no-repeat" />
-          }
-          className="lg:col-span-2"
-        />
-
-        <BentoCard
-          eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
-          graphic={
-            <div className="h-80 bg-[url(/cars/battery-4.jpg)] bg-cover bg-no-repeat" />
-          }
-          className="lg:col-span-2"
-        />
-
-        <BentoCard
-          eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title="Ultra Long Range"
+          description="Blade Battery BYD mampu membawa mobil dengan jarak tempuh yang sangat jauh dalam sekali charge."
           graphic={
             <div className="h-80 bg-[url(/cars/battery-5.jpg)] bg-cover bg-no-repeat" />
           }
@@ -112,10 +102,20 @@ function BentoSection() {
 
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title=" Ultra Long Lifespan"
+          description="Blade Battery BYD adalah baterai lithium-ion yang memiliki rentang hidup sekitar 3.000 kali charge atau 1.200.000 km."
           graphic={
-            <div className="h-80 bg-[url(/cars/battery-6.jpg)] bg-cover bg-no-repeat" />
+            <div className="h-80 bg-[url(/cars/battery-4.jpg)] bg-cover bg-no-repeat" />
+          }
+          className="lg:col-span-2"
+        />
+
+        <BentoCard
+          eyebrow="Source"
+          title="Super Power"
+          description="Mampu mengisi baterai dengan sangat cepat, dan memberikan tenaga yang maksimal saat berkendara."
+          graphic={
+            <div className="h-80 bg-[url(/cars/battery-1.jpg)] bg-cover bg-no-repeat" />
           }
           className="lg:col-span-2"
         />
