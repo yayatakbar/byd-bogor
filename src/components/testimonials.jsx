@@ -17,38 +17,23 @@ import { Heading, Subheading } from './text'
 
 const testimonials = [
   {
-    img: '/cars/1.jpg',
-    name: 'Tina Yards',
-    title: 'VP of Sales, Protocol',
+    img: '/cars/1.webp',
     quote:
-      'Thanks to Radiant, we’re finding new leads that we never would have found with legal methods.',
-  },
-  {
-    img: '/cars/2.jpg',
-    name: 'Conor Neville',
-    title: 'Head of Customer Success, TaxPal',
-    quote:
-      'Radiant made undercutting all of our competitors an absolute breeze.',
+      'The perfect SUV for urbanites and weekend adventurers, the BYD Atto 3 is stylish, safe, and packed with features.',
   },
   {
     img: '/cars/3.jpg',
-    name: 'Amy Chase',
-    title: 'Head of GTM, Pocket',
     quote:
-      'We closed a deal in literally a few minutes because we knew their exact budget.',
+      'With its spacious interior, long range, and advanced features, the BYD DOLPHIN is the perfect car for city dwellers and eco-conscious drivers alike.',
   },
   {
     img: '/cars/4.jpg',
-    name: 'Veronica Winton',
-    title: 'CSO, Planeteria',
     quote:
-      'We’ve managed to put two of our main competitors out of business in 6 months.',
+      'Make a positive impact on the environment with the BYD Seal, the electric car that\'s driving the future of sustainable mobility.',
   },
   {
-    img: '/cars/5.jpg',
-    name: 'Dillon Lenora',
-    title: 'VP of Sales, Detax',
-    quote: 'I was able to replace 80% of my team with RadiantAI bots.',
+    img: '/cars/5.webp',
+    quote: 'The perfect family car for holidays anytime and anywhere! Spacious and comfortable space makes every trip more enjoyable.',
   },
 ]
 

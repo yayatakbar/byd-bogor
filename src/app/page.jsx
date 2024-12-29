@@ -37,9 +37,7 @@ function Hero() {
             BYD Kota Bogor
           </h1>
           <p className="mt-8 max-w-2xl text-xl/7 font-medium text-white/75 sm:text-2xl/8">
-            Showroom Resmi BYD, Kota Bogor. Sejak 2003, kami menghadirkan
-            kendaraan listrik efisien dan ramah lingkungan, berkomitmen
-            memberikan pengalaman terbaik dalam memilih mobil elektrik.
+          Dealer Resmi BYD di Kota Bogor memberikan pelayanan dan informasi terkini seputar mobil listrik BYD. Berkomitmen memberikan pengalaman terbaik dalam memilih mobil listrik.
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button
