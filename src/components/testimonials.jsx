@@ -18,21 +18,25 @@ import { Heading, Subheading } from './text'
 const testimonials = [
   {
     img: '/cars/1.webp',
+    title: 'BYD ATTO 3',
     quote:
       'The perfect SUV for urbanites and weekend adventurers, the BYD Atto 3 is stylish, safe, and packed with features.',
   },
   {
     img: '/cars/3.jpg',
+    title: 'BYD DOLPHIN',
     quote:
       'With its spacious interior, long range, and advanced features, the BYD DOLPHIN is the perfect car for city dwellers and eco-conscious drivers alike.',
   },
   {
     img: '/cars/4.jpg',
+    title: 'BYD SEAL',
     quote:
       'Make a positive impact on the environment with the BYD Seal, the electric car that\'s driving the future of sustainable mobility.',
   },
   {
     img: '/cars/5.webp',
+    title: 'BYD M6',
     quote: 'The perfect family car for holidays anytime and anywhere! Spacious and comfortable space makes every trip more enjoyable.',
   },
 ]
@@ -163,7 +167,7 @@ export function Testimonials() {
         <div ref={setReferenceWindowRef}>
           <Subheading>Dapatkan Promo Menarik</Subheading>
           <Heading as="h3" className="mt-2">
-            Koleksi Kendaraan Listrik Terbaik Kami
+            Kendaraan Listrik Terbaik Kami
           </Heading>
         </div>
       </Container>

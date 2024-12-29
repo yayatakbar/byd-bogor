@@ -22,16 +22,16 @@ export function PlusGridRow({ className = '', children }) {
         className="absolute inset-y-0 left-1/2 -z-10 w-screen -translate-x-1/2"
       >
         <div
-          className={`absolute inset-x-0 top-0 border-t ${isHome ? 'border-white/5' : 'border-black/[.2]'} `}
+          className={`absolute inset-x-0 top-0 border-t ${isHome ? 'border-white/5' : 'border-white/5'}`}
         />
         <div
-          className={`absolute inset-x-0 top-2 border-t ${isHome ? 'border-white/5' : 'border-black/[.2]'}`}
+          className={`absolute inset-x-0 top-2 border-t ${isHome ? 'border-white/5' : 'border-white/5'}`}
         />
         <div
-          className={`absolute inset-x-0 bottom-0 hidden border-b group-last/row:block ${isHome ? 'border-white/5' : 'border-black/[.2]'}`}
+          className={`absolute inset-x-0 bottom-0 hidden border-b group-last/row:block ${isHome ? 'border-white/5' : 'border-white/5'}`}
         />
         <div
-          className={`absolute inset-x-0 bottom-2 hidden border-b group-last/row:block ${isHome ? 'border-white/5' : 'border-black/[.2]'} `}
+          className={`absolute inset-x-0 bottom-2 hidden border-b group-last/row:block ${isHome ? 'border-white/5' : 'border-white/5'}`}
         />
       </div>
       {children}
@@ -75,7 +75,7 @@ export function PlusGridIcon({ className = '', placement }) {
       aria-hidden="true"
       className={clsx(
         className,
-        `${isHome ? 'fill-white/10' : 'fill-black/[.1]'} absolute size-[15px]`,
+        `${isHome ? 'fill-white/10' : 'fill-white/10'} absolute size-[15px]`,
         yClass,
         xClass,
       )}
