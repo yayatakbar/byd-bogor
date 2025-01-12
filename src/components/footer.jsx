@@ -9,14 +9,13 @@ function CallToAction() {
     <div className="relative pb-16 pt-20 text-center sm:py-24">
       <hgroup>
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
-          Ready to dive in?
-          <br />
-          Start your free trial today.
+          Mau Test 
+          <br></br>
+          Drive Mobil BYD?
         </p>
       </hgroup>
       <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-500">
-        Get the cheat codes for selling and unlock your team&apos;s revenue
-        potential.
+      90% konsumen yang test drive BYD melakukan pemesanan unit. Jangan lewatkan kesempatan ini!
       </p>
       <div className="mt-6">
         <Button

@@ -71,7 +71,7 @@ function BentoSection() {
         />
         <BentoCard
           title="Ultra Safe"
-          description="Blade Battery menjadi satu-satunya yang lolos melalui serangkaian tes, salah satunya Nail Penetration Test, yang menguji kemampuan mengeliminasi potensi terbakarnya baterai saat kecelakaan."
+          description="Blade Battery menjadi satu-satunya yang lolos Nail Penetration Test, yang menguji kemampuan mengeliminasi potensi terbakarnya baterai saat kecelakaan."
           graphic={
             <div className="h-80 bg-[url(/cars/battery-6.jpg)] bg-cover bg-no-repeat" />
           }
