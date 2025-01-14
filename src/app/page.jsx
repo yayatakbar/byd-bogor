@@ -58,7 +58,7 @@ function Hero() {
 function GradientTransition() {
   return (
     <div className="relative">
-      <div className="h-24 bg-gradient-to-b from-black to-gray-100"></div>
+      <div className="h-24 bg-gradient-to-b from-black via-gray-800/50 to-gray-100 backdrop-blur-md"></div>
     </div>
   );
 }
