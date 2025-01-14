@@ -28,7 +28,7 @@ export function GradientBackground() {
 
 export function VideoBackground() {
   return (
-    <div className="absolute inset-2 bottom-0 overflow-hidden rounded-4xl ring-1 ring-inset ring-black/5">
+    <div className="absolute inset-0 bottom-0 overflow-hidden ring-1 ring-inset ring-black/5">
       <div className="relative h-full w-full">
         <video
           className="absolute left-0 top-0 h-full w-full object-cover"
@@ -37,9 +37,9 @@ export function VideoBackground() {
           loop
           controls={false}
         >
-          <source src="background.mp4" type="video/mp4" />
+          <source src="home background video.mp4" type="video/mp4" />
         </video>
-        <div className="absolute h-full w-full bg-black/70" />
+        <div className="absolute h-full w-full bg-black/30" />
       </div>
     </div>
   )

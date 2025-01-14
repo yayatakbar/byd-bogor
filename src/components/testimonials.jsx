@@ -35,7 +35,7 @@ const testimonials = [
       'Make a positive impact on the environment with the BYD Seal, the electric car that\'s driving the future of sustainable mobility.',
   },
   {
-    img: '/cars/5.webp',
+    img: '/cars/m6 new.png',
     title: 'BYD M6',
     quote: 'The perfect family car for holidays anytime and anywhere! Spacious and comfortable space makes every trip more enjoyable.',
   },

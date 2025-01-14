@@ -1,7 +1,7 @@
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
-import { Gradient, GradientBackground } from '@/components/gradient'
+import { Gradient, GradientBackground, VideoBackground } from '@/components/gradient'
 import { Link } from '@/components/link'
 import { LogoCloud } from '@/components/logo-cloud'
 import { Navbar } from '@/components/navbar'
@@ -486,7 +486,7 @@ export default function Pricing({ searchParams }) {
 
   return (
     <main className="overflow-hidden">
-      <GradientBackground />
+      <VideoBackground />
       <Container>
         <Navbar />
       </Container>
