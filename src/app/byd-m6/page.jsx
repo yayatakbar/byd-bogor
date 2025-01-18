@@ -9,6 +9,13 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import { AnimatedNumber } from '@/components/animated-number'
 import { Gradient } from '@/components/gradient'
 import { LogoCloud } from '@/components/logo-cloud'
+import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Link } from '@/components/link'
+import {
+  CheckIcon,
+  ChevronUpDownIcon,
+  MinusIcon,
+} from '@heroicons/react/16/solid'
 
 export const metadata = {
   description:
