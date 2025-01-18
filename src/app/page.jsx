@@ -19,7 +19,7 @@ function Hero() {
   return (
     <div className="relative">
       {/* Latar Belakang Video */}
-      <VideoBackground />
+      <VideoBackground videoSrc="home background video.mp4"/>
       <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>
       <Container className="relative">
         <Navbar

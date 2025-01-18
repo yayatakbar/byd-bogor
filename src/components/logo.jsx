@@ -9,7 +9,7 @@ export function Logo({ className }) {
     <svg
       width="127"
       height="32"
-      fill={`${isHome ? '#fff' : '#ff0000'}`}
+      fill="#fff"
       viewBox="0 0 127 32"
       className={className}
     >

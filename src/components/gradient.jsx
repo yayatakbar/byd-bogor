@@ -26,7 +26,7 @@ export function GradientBackground() {
   )
 }
 
-export function VideoBackground() {
+export function VideoBackground({ videoSrc }) {
   return (
     <div className="absolute inset-0 bottom-0 overflow-hidden ring-1 ring-inset ring-black/5">
       <div className="relative h-full w-full">
@@ -37,7 +37,7 @@ export function VideoBackground() {
           loop
           controls={false}
         >
-          <source src="home background video.mp4" type="video/mp4" />
+          <source src={videoSrc} type="video/mp4" />
         </video>
         <div className="absolute h-full w-full bg-black/30" />
       </div>
