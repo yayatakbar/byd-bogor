@@ -6,7 +6,7 @@ import { Link } from './link'
 
 function CallToAction() {
   return (
-    <div className="relative pb-16 pt-20 text-center sm:py-24">
+    <div className="relative pb-16 pt-20 text-center sm:py-11">
       <hgroup>
         <p className="mt-6 text-3xl font-medium tracking-tight text-gray-950 sm:text-5xl">
           Mau Test 
@@ -91,7 +91,7 @@ export function Footer() {
         <div className="absolute inset-2 rounded-4xl bg-white/80" />
         <Container>
           <CallToAction />
-          <PlusGrid className="pb-16">
+          <PlusGrid className="pb-11">
             <PlusGridRow className="flex justify-between">
               <div>
                 <PlusGridItem className="py-3">

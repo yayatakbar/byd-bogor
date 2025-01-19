@@ -35,6 +35,7 @@ export function VideoBackground({ videoSrc }) {
           autoPlay
           muted
           loop
+          playsInline
           controls={false}
         >
           <source src={videoSrc} type="video/mp4" />

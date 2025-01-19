@@ -7,8 +7,8 @@ import { LinkedAvatars } from '@/components/linked-avatars'
 import { LogoTimeline } from '@/components/logo-timeline'
 import { Navbar } from '@/components/navbar'
 import { Testimonials } from '@/components/testimonials'
-import { Heading, Subheading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
+import { Heading, Lead, Subheading } from '@/components/text'
 
 export const metadata = {
   description:
@@ -45,7 +45,7 @@ function Hero() {
             Rasakan dimensi baru dalam memiliki mobil BYD, di mana menjadi pemilik mobil berarti lebih dari sekadar mengemudi.
           </p>
           <div className="mt-6 flex justify-center">
-            <Button variant="primary" href="/test-drive" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+            <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
               Pesan Test Drive →
             </Button>
           </div>

@@ -49,10 +49,10 @@ function HeroM6() {
             BYD M6
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
-          From $162,888 incl. COE
+          From Rp. 383.000.000
           </p>
           <div className="mt-6 flex justify-center">
-            <Button variant="primary" href="/test-drive" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+            <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
               Pesan Test Drive →
             </Button>
           </div>
@@ -86,28 +86,19 @@ export default function m6() {
 function Features() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Helping companies generate revenue.</Heading>
+      <Heading as="h1">BYD M6 MVP Listrik Pertama di Indonesia
+      </Heading>
       <Lead className="mt-6 max-w-3xl">
-        We’re on a mission to transform revenue organizations by harnessing vast
-        amounts of illegally acquired customer data.
+      Mencatatkan rekor penjualan di atas 6000 unit hanya dalam kurun waktu 5 bulan saja
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
-          <h2 className="text-2xl font-medium tracking-tight">Our mission</h2>
+          <h2 className="text-2xl font-medium tracking-tight">Keunggulan</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-            At Radiant, we are dedicated to transforming the way revenue
-            organizations source and close deals. Our mission is to provide our
-            customers with an unfair advantage over both their competitors and
-            potential customers through insight and analysis. We’ll stop at
-            nothing to get you the data you need to close a deal.
+          Desain depan yang aerodinamis dan ramping mengoptimalkan aliran udara sekaligus mencerminkan kesederhanaan dan keanggunan estetika desain generasi baru BYD dengan perhatian terhadap detail yang teliti
           </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-            We’re customer-obsessed — putting the time in to build a detailed
-            financial picture of every one of our customers so that we know more
-            about your business than you do. We are in this together, mostly
-            because we are all implicated in large-scale financial crime. In our
-            history as a company, we’ve never lost a customer, because if any
-            one of us talks, we all go down.
+          Menghadirkan desain kokpit yang luar biasa, BYD M6 memadukan keanggunan modern dengan fungsionalitas cerdas. Mengantarkan Anda ke dimensi perjalanan baru yang penuh kecerdasan dan inovasi, menciptakan pengalaman berkendara yang tidak hanya fungsional tetapi juga sangat estetis.
           </p>
         </div>
         <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -147,27 +138,27 @@ function Features() {
           <hr className="mt-6 border-t border-gray-200" />
           <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-              <dt className="text-sm/6 text-gray-600">Raised</dt>
+              <dt className="text-sm/6 text-gray-600">Harga otr</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                $<AnimatedNumber start={100} end={150} />M
+                Rp. <AnimatedNumber start={0} end={383} /> M
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
-              <dt className="text-sm/6 text-gray-600">Companies</dt>
+              <dt className="text-sm/6 text-gray-600">Jarak tempuh</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={15} end={30} />K
+                <AnimatedNumber start={15} end={530} /> KM
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
-              <dt className="text-sm/6 text-gray-600">Deals Closed</dt>
+              <dt className="text-sm/6 text-gray-600">Torsi Maksimum</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={0.9} end={1.5} decimals={1} />M
+                <AnimatedNumber start={40} end={310}/> Nm
               </dd>
             </div>
             <div className="flex flex-col gap-y-2">
-              <dt className="text-sm/6 text-gray-600">Leads Generated</dt>
+              <dt className="text-sm/6 text-gray-600">Kapasitas Baterai</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={150} end={200} />M
+                <AnimatedNumber start={0.9} end={71.8} decimals={1} /> kWh
               </dd>
             </div>
           </dl>
@@ -180,10 +171,10 @@ function Features() {
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Pricing that grows with your team size.</Heading>
+      <Heading as="h1">Pilihan program pembiayaan yang cocok untuk Anda
+      </Heading>
       <Lead className="mt-6 max-w-3xl">
-        Companies all over the world have closed millions of deals with Radiant.
-        Sign up today and start selling smarter.
+      Kami bekerja sama dengan banyak lembaga pembiayaan yang murah, mudah, dan cepat.
       </Lead>
     </Container>
   )
@@ -199,7 +190,6 @@ function PricingCards() {
             <PricingCard key={tierIndex} tier={tier} />
           ))}
         </div>
-        <LogoCloud className="mt-24" />
       </Container>
     </div>
   )
@@ -214,19 +204,20 @@ function PricingCard({ tier }) {
           <p className="mt-2 text-sm/6 text-gray-950/75">{tier.description}</p>
           <div className="mt-8 flex items-center gap-4">
             <div className="text-5xl font-medium text-gray-950">
-              ${tier.priceMonthly}
+              {tier.priceMonthly}
             </div>
             <div className="text-sm/5 text-gray-950/75">
-              <p>USD</p>
+              <p>Jutaan
+              </p>
               <p>per month</p>
             </div>
           </div>
           <div className="mt-8">
-            <Button href={tier.href}>Start a free trial</Button>
+            <Button href="https://wa.me/+6281383940305">Minta simulasi</Button>
           </div>
           <div className="mt-8">
             <h3 className="text-sm/6 font-medium text-gray-950">
-              Start selling with:
+              Termasuk:
             </h3>
             <ul className="mt-3 space-y-3">
               {tier.highlights.map((props, featureIndex) => (
@@ -404,17 +395,14 @@ function PricingTable({ selectedTier }) {
 
 const tiers = [
   {
-    name: 'Starter',
-    slug: 'starter',
-    description: 'Everything you need to start selling.',
-    priceMonthly: 99,
+    name: 'Program DP Rendah',
+    slug: 'Program DP Rendah',
+    description: 'Dp mulai dari 15%',
+    priceMonthly: 50,
     href: '#',
     highlights: [
-      { description: 'Up to 3 team members' },
-      { description: 'Up to 5 deal progress boards' },
-      { description: 'Source leads from select platforms' },
-      { description: 'RadiantAI integrations', disabled: true },
-      { description: 'Competitor analysis', disabled: true },
+      { description: 'Biaya Administrasi' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 3 },
@@ -432,17 +420,14 @@ const tiers = [
     ],
   },
   {
-    name: 'Growth',
-    slug: 'growth',
-    description: 'All the extras for your growing team.',
-    priceMonthly: 149,
+    name: 'Program Bunga Rendah',
+    slug: 'Program Bunga Rendah',
+    description: 'Bunga mulai 0% per tahun.',
+    priceMonthly: 6,
     href: '#',
     highlights: [
-      { description: 'Up to 10 team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 50 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: '5 competitor analyses per month' },
+      { description: 'Biaya Administrasi' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 10 },
@@ -460,17 +445,15 @@ const tiers = [
     ],
   },
   {
-    name: 'Enterprise',
-    slug: 'enterprise',
-    description: 'Added flexibility to close deals at scale.',
-    priceMonthly: 299,
+    name: 'Program Pembiayaan Syariah',
+    slug: 'Program Pembiayaan Syariah',
+    description: 'DP mulai dari 25%',
+    priceMonthly: 90,
     href: '#',
     highlights: [
-      { description: 'Unlimited active team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 100 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: 'Unlimited competitor analyses' },
+      { description: 'Biaya Administrasi' },
+      { description: 'Biaya Akad' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
     ],
     features: [
       { section: 'Features', name: 'Accounts', value: 'Unlimited' },
