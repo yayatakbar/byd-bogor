@@ -227,7 +227,7 @@ function Profil() {
                 </p>
               </blockquote>
               <figcaption className="mt-auto">
-                <p className="text-sm/6 font-medium text-white">FidiAfif</p>
+                <p className="text-sm/6 font-medium text-white">FidiAvif</p>
                 <p className="text-sm/6 font-medium">
                   <span className="bg-gradient-to-r from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] bg-clip-text text-transparent">
                   BYD Brand Consultant
