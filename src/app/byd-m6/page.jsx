@@ -140,7 +140,7 @@ function Features() {
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
               <dt className="text-sm/6 text-gray-600">Harga otr</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                Rp. <AnimatedNumber start={0} end={383} /> M
+                Rp. <AnimatedNumber start={0} end={383} /> Jt
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
