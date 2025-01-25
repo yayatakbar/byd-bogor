@@ -25,7 +25,7 @@ function HeroSeal() {
   return (
     <div className="relative">
       {/* Latar Belakang Video */}
-      <VideoBackground videoSrc="background seal.mp4" />
+      <VideoBackground videoSrc="background dolphin.mp4" />
       <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>
       <Container className="relative">
         <Navbar
@@ -45,10 +45,10 @@ function HeroSeal() {
             <span className="block w-1 h-3 bg-blue-500"></span> Elevating Driving Experience
           </span>
           <h1 className="mt-3 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-4xl">
-            BYD SEAL
+            BYD DOLPHIN
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
-          From Rp. 635.000.000
+          From Rp. 369.000.000
           </p>
           <div className="mt-6 flex justify-center">
             <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
@@ -85,24 +85,19 @@ export default function seal() {
 function Features() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">BYD SEAL Cepat, Cerdas dan Dinamis
+      <Heading as="h1">BYD DOLPHIN Canggih, Lincah dan Efisien
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-      BYD SEAL mencatatkan penjualan terbanyak dengan jumlah 1.290 unit pada bulan Juli 2024.
+      BYD Dolphin mendapatkan rating bintang lima saat uji EURO NCAP
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Keunggulan</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-          Teknologi CTB (Cell-to-Body): Penutup atas baterai dan lantai bodi digabungkan menjadi satu, membentuk struktur
-          &quot;sandwich&quot; dari seluruh kendaraan. Sistem baterai daya adalah bagian energi dan komponen struktural
-          mekanik, yang meningkatkan pemanfaatan ruang baterai dan juga meningkatkan umur baterai. Integrasi yang lebih erat
-          antara baterai blade dan bodi memungkinkan BYD SEAL mencapai kekakuan torsi yang sangat baik sebesar 40.500
-          N&middot;m/&deg;.
+          Konsol Tengah Mengambang. Desain konsol tengah yang futuristik menciptakan lingkungan berkendara yang modern dan dinamis dengan detail trim logam yang melintang di seluruh dashboard, membentuk permukaan melengkung yang indah dan minimalis.
         </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-          Sistem iTAC (Intelligence Torque Adaption Control):
-Berdasarkan respons cepat motor listrik, sensor digunakan untuk mengidentifikasi dengan cepat perubahan status kendaraan, secara efektif mengurangi slip roda dan understeer, dan secara instan menyesuaikan output torsi oleh motor penggerak kendaraan untuk menjaga posisi berkendara yang baik.
+          Teknologi Baterai Blade Paten Ultra-Aman. Saat menjalani uji penetrasi paku, Baterai Blade tidak mengeluarkan asap maupun api setelah tertusuk, dan suhunya hanya mencapai 30 hingga 60°C. Sel-sel Baterai Blade juga lulus uji kondisi ekstrem lainnya, seperti dihancurkan, dibengkokkan, dipanaskan dalam tungku hingga 300°C, dan diisi daya berlebih hingga 260%. Tidak ada dari kondisi ini yang mengakibatkan kebakaran atau ledakan.
           </p>
         </div>
         <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
@@ -110,28 +105,28 @@ Berdasarkan respons cepat motor listrik, sensor digunakan untuk mengidentifikasi
             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
               <img
                 alt=""
-                src="/cars/seal1.jpg"
+                src="/cars/dolphin1.jpg"
                 className="block size-full object-cover"
               />
             </div>
             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
               <img
                 alt=""
-                src="/cars/seal2.jpg"
+                src="/cars/dolphin2.jpg"
                 className="block size-full object-cover"
               />
             </div>
             <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
               <img
                 alt=""
-                src="/cars/seal3.jpg"
+                src="/cars/dolphin3.jpg"
                 className="block size-full object-cover"
               />
             </div>
             <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
               <img
                 alt=""
-                src="/cars/seal4.jpg"
+                src="/cars/dolphin4.jpg"
                 className="block size-full object-cover"
               />
             </div>
@@ -144,25 +139,25 @@ Berdasarkan respons cepat motor listrik, sensor digunakan untuk mengidentifikasi
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
               <dt className="text-sm/6 text-gray-600">Harga otr</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                Rp. <AnimatedNumber start={0} end={635} /> M
+                Rp. <AnimatedNumber start={0} end={369} /> M
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
               <dt className="text-sm/6 text-gray-600">Jarak tempuh</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={15} end={650} /> KM
+                <AnimatedNumber start={15} end={490} /> KM
               </dd>
             </div>
             <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
               <dt className="text-sm/6 text-gray-600">Torsi Maksimum</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={40} end={670}/> Nm
+                <AnimatedNumber start={40} end={310}/> Nm
               </dd>
             </div>
             <div className="flex flex-col gap-y-2">
               <dt className="text-sm/6 text-gray-600">Kapasitas Baterai</dt>
               <dd className="order-first text-6xl font-medium tracking-tight">
-                <AnimatedNumber start={0.9} end={82.5} decimals={1} /> kWh
+                <AnimatedNumber start={0.40} end={60.48} decimals={2} /> kWh
               </dd>
             </div>
           </dl>
@@ -402,7 +397,7 @@ const tiers = [
     name: 'Program DP Rendah',
     slug: 'Program DP Rendah',
     description: 'Dp mulai dari 9%',
-    priceMonthly: 60,
+    priceMonthly: 30,
     href: '#',
     highlights: [
       { description: 'Biaya Administrasi' },
@@ -427,7 +422,7 @@ const tiers = [
     name: 'Program Bunga Rendah',
     slug: 'Program Bunga Rendah',
     description: 'Bunga mulai 0% per tahun.',
-    priceMonthly: 9,
+    priceMonthly: 5,
     href: '#',
     highlights: [
       { description: 'Biaya Administrasi' },
@@ -452,7 +447,7 @@ const tiers = [
     name: 'Program Pembiayaan Syariah',
     slug: 'Program Pembiayaan Syariah',
     description: 'DP mulai dari 25%',
-    priceMonthly: 200,
+    priceMonthly: 80,
     href: '#',
     highlights: [
       { description: 'Biaya Administrasi' },
