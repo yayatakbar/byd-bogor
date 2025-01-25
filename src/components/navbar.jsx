@@ -48,14 +48,6 @@ function DesktopNav() {
                 BYD ATTO 3
               </Link>
             </MenuItem>
-            {/* <MenuItem>
-              <Link
-                href="/byd-sealion-7"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD Sealion 7
-              </Link>
-            </MenuItem> */}
             <MenuItem>
               <Link
                 href="/byd-seal"

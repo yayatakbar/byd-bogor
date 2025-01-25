@@ -8,7 +8,6 @@ import { Heading, Lead, Subheading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import { AnimatedNumber } from '@/components/animated-number'
 import { Gradient } from '@/components/gradient'
-import { LogoCloud } from '@/components/logo-cloud'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Link } from '@/components/link'
 import {
@@ -19,7 +18,7 @@ import {
 
 export const metadata = {
   description:
-    'Explore the unparalleled experience with BYD SEAL, redefining luxury and performance.',
+    'Explore the unparalleled experience with BYD M6, redefining luxury and performance.',
 }
 
 function HeroSeal() {
@@ -86,20 +85,23 @@ export default function seal() {
 function Features() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">BYD M6 MVP Listrik Pertama di Indonesia
+      <Heading as="h1">BYD SEAL Cepat, Cerdas dan Dinamis
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-      Mencatatkan rekor penjualan di atas 6000 unit hanya dalam kurun waktu 5 bulan saja
+      BYD SEAL mencatatkan penjualan terbanyak dengan jumlah 1.290 unit pada bulan Juli 2024.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
           <h2 className="text-2xl font-medium tracking-tight">Keunggulan</h2>
           <p className="mt-6 text-sm/6 text-gray-600">
-          Teknologi CTB (Cell-to-Body)
-Penutup atas baterai dan lantai bodi digabungkan menjadi satu, membentuk struktur "sandwich" dari seluruh kendaraan. Sistem baterai daya adalah bagian energi dan komponen struktural mekanik, yang meningkatkan pemanfaatan ruang baterai dan juga meningkatkan umur baterai. Integrasi yang lebih erat antara baterai blade dan bodi memungkinkan BYD SEAL mencapai kekakuan torsi yang sangat baik sebesar 40.500 N.m/°.
-          </p>
+          Teknologi CTB (Cell-to-Body): Penutup atas baterai dan lantai bodi digabungkan menjadi satu, membentuk struktur
+          &quot;sandwich&quot; dari seluruh kendaraan. Sistem baterai daya adalah bagian energi dan komponen struktural
+          mekanik, yang meningkatkan pemanfaatan ruang baterai dan juga meningkatkan umur baterai. Integrasi yang lebih erat
+          antara baterai blade dan bodi memungkinkan BYD SEAL mencapai kekakuan torsi yang sangat baik sebesar 40.500
+          N&middot;m/&deg;.
+        </p>
           <p className="mt-8 text-sm/6 text-gray-600">
-          Sistem iTAC (Intelligence Torque Adaption Control)
+          Sistem iTAC (Intelligence Torque Adaption Control):
 Berdasarkan respons cepat motor listrik, sensor digunakan untuk mengidentifikasi dengan cepat perubahan status kendaraan, secara efektif mengurangi slip roda dan understeer, dan secara instan menyesuaikan output torsi oleh motor penggerak kendaraan untuk menjaga posisi berkendara yang baik.
           </p>
         </div>

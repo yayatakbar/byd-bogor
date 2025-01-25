@@ -49,7 +49,7 @@ function HeroM6() {
             BYD ATTO 3
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
-          From Rp. 383.000.000
+          From Rp. 470.000.000
           </p>
           <div className="mt-6 flex justify-center">
             <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
@@ -86,10 +86,10 @@ export default function m6() {
 function Features() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">BYD M6 MVP Listrik Pertama di Indonesia
+      <Heading as="h1">BYD ATTO 3 Stylish, Modern, dan Value For Money
       </Heading>
       <Lead className="mt-6 max-w-3xl">
-      Mencatatkan rekor penjualan di atas 6000 unit hanya dalam kurun waktu 5 bulan saja
+      BYD Atto 3 menjadi mobil terlaris BYD di pasar global pada tahun 2023.
       </Lead>
       <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
         <div className="max-w-lg">
