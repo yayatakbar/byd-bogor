@@ -1,12 +1,16 @@
+import { BentoCard } from '@/components/bento-card'
 import { Button } from '@/components/button'
 import { Container } from '@/components/container'
 import { Footer } from '@/components/footer'
-import { Gradient, GradientBackground } from '@/components/gradient'
-import { Link } from '@/components/link'
-import { LogoCloud } from '@/components/logo-cloud'
+import { VideoBackground } from '@/components/gradient'
 import { Navbar } from '@/components/navbar'
 import { Heading, Lead, Subheading } from '@/components/text'
+import { ChevronRightIcon } from '@heroicons/react/16/solid'
+import { AnimatedNumber } from '@/components/animated-number'
+import { Gradient } from '@/components/gradient'
+import { LogoCloud } from '@/components/logo-cloud'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
+import { Link } from '@/components/link'
 import {
   CheckIcon,
   ChevronUpDownIcon,
@@ -14,105 +18,163 @@ import {
 } from '@heroicons/react/16/solid'
 
 export const metadata = {
-  title: 'BYD Sealion 7',
   description:
-    "BYD's flagship full- sized electric SUV blends premium luxury with practicality.",
+    'Explore the unparalleled experience with BYD M6, redefining luxury and performance.',
 }
 
-const tiers = [
-  {
-    name: 'Starter',
-    slug: 'starter',
-    description: 'Everything you need to start selling.',
-    priceMonthly: 99,
-    href: '#',
-    highlights: [
-      { description: 'Up to 3 team members' },
-      { description: 'Up to 5 deal progress boards' },
-      { description: 'Source leads from select platforms' },
-      { description: 'RadiantAI integrations', disabled: true },
-      { description: 'Competitor analysis', disabled: true },
-    ],
-    features: [
-      { section: 'Features', name: 'Accounts', value: 3 },
-      { section: 'Features', name: 'Deal progress boards', value: 5 },
-      { section: 'Features', name: 'Sourcing platforms', value: 'Select' },
-      { section: 'Features', name: 'Contacts', value: 100 },
-      { section: 'Features', name: 'AI assisted outreach', value: false },
-      { section: 'Analysis', name: 'Competitor analysis', value: false },
-      { section: 'Analysis', name: 'Dashboard reporting', value: false },
-      { section: 'Analysis', name: 'Community insights', value: false },
-      { section: 'Analysis', name: 'Performance analysis', value: false },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: false },
-      { section: 'Support', name: 'Dedicated account manager', value: false },
-    ],
-  },
-  {
-    name: 'Growth',
-    slug: 'growth',
-    description: 'All the extras for your growing team.',
-    priceMonthly: 149,
-    href: '#',
-    highlights: [
-      { description: 'Up to 10 team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 50 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: '5 competitor analyses per month' },
-    ],
-    features: [
-      { section: 'Features', name: 'Accounts', value: 10 },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
-      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
-      { section: 'Features', name: 'Contacts', value: 1000 },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: '5 / month' },
-      { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
-      { section: 'Analysis', name: 'Performance analysis', value: true },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: true },
-      { section: 'Support', name: 'Dedicated account manager', value: false },
-    ],
-  },
-  {
-    name: 'Enterprise',
-    slug: 'enterprise',
-    description: 'Added flexibility to close deals at scale.',
-    priceMonthly: 299,
-    href: '#',
-    highlights: [
-      { description: 'Unlimited active team members' },
-      { description: 'Unlimited deal progress boards' },
-      { description: 'Source leads from over 100 verified platforms' },
-      { description: 'RadiantAI integrations' },
-      { description: 'Unlimited competitor analyses' },
-    ],
-    features: [
-      { section: 'Features', name: 'Accounts', value: 'Unlimited' },
-      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
-      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
-      { section: 'Features', name: 'Contacts', value: 'Unlimited' },
-      { section: 'Features', name: 'AI assisted outreach', value: true },
-      { section: 'Analysis', name: 'Competitor analysis', value: 'Unlimited' },
-      { section: 'Analysis', name: 'Dashboard reporting', value: true },
-      { section: 'Analysis', name: 'Community insights', value: true },
-      { section: 'Analysis', name: 'Performance analysis', value: true },
-      { section: 'Support', name: 'Email support', value: true },
-      { section: 'Support', name: '24 / 7 call center support', value: true },
-      { section: 'Support', name: 'Dedicated account manager', value: true },
-    ],
-  },
-]
+function HeroM6() {
+  return (
+    <div className="relative">
+      {/* Latar Belakang Video */}
+      <VideoBackground videoSrc="background atto3.mp4" />
+      <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>
+      <Container className="relative">
+        <Navbar
+          banner={
+            <a
+              href="https://wa.me/+6281383940305"
+              target="_blank"
+              className="flex items-center gap-1 rounded-full bg-white/35 px-3 py-0.5 text-sm/6 font-medium text-white hover:bg-fuchsia-950/30"
+            >
+              Hubungi melalui WhatsApp
+              <ChevronRightIcon className="size-4" />
+            </a>
+          }
+        />
+        <div className="pt-60 text-center">
+          <span className="text-xs uppercase font-semibold text-white tracking-wide inline-flex items-center gap-2">
+            <span className="block w-1 h-3 bg-blue-500"></span> Elevating Driving Experience
+          </span>
+          <h1 className="mt-3 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-4xl">
+            BYD ATTO 3
+          </h1>
+          <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
+          From Rp. 383.000.000
+          </p>
+          <div className="mt-6 flex justify-center">
+            <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+              Pesan Test Drive →
+            </Button>
+          </div>
+        </div>
+      </Container>
+    </div>
+  )
+}
+
+function GradientTransition() {
+  return (
+    <div className="relative">
+      <div className="h-24 bg-gradient-to-b from-black via-gray-800/50 to-gray-100 backdrop-blur-md"></div>
+    </div>
+  );
+}
+
+export default function m6() {
+  return (
+    <main className="overflow-hidden">
+      <HeroM6 />
+      <GradientTransition />
+      <Features />
+      <Header />
+      <PricingCards />
+      <Footer />
+    </main>
+  )
+}
+
+function Features() {
+  return (
+    <Container className="mt-16">
+      <Heading as="h1">BYD M6 MVP Listrik Pertama di Indonesia
+      </Heading>
+      <Lead className="mt-6 max-w-3xl">
+      Mencatatkan rekor penjualan di atas 6000 unit hanya dalam kurun waktu 5 bulan saja
+      </Lead>
+      <section className="mt-16 grid grid-cols-1 lg:grid-cols-2 lg:gap-12">
+        <div className="max-w-lg">
+          <h2 className="text-2xl font-medium tracking-tight">Keunggulan</h2>
+          <p className="mt-6 text-sm/6 text-gray-600">
+          BYD ATTO 3 dibangun dengan platform baru BYD e-platform 3.0, dirancang untuk generasi berikutnya dari EV pintar berkinerja tinggi yang menawarkan empat keunggulan utama: kecerdasan, efisiensi, keamanan, dan estetika. Ini tidak hanya mengintegrasikan dan standarisasi komponen inti lebih lanjut, tetapi juga membangun struktur tubuh yang baru, arsitektur digital dan elektrikal, serta sistem operasi kendaraan BYD yang telah diperbarui.
+          </p>
+          <p className="mt-8 text-sm/6 text-gray-600">
+          Dalam hal desain interior, BYD ATTO 3 memperkenalkan interior baru berwarna biru tua dan hitam untuk menciptakan suasana yang keren dan trendi, mencerminkan sikap muda. Garis-garis lembut berirama di sepanjang bagian depan dan samping mobil menggambarkan serat otot manusia secara humanis, memberikan sentuhan pribadi di tengah detail mekanis.
+          </p>
+        </div>
+        <div className="pt-20 lg:row-span-2 lg:-mr-16 xl:mr-auto">
+          <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">
+            <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
+              <img
+                alt=""
+                src="/cars/atto1.jpg"
+                className="block size-full object-cover"
+              />
+            </div>
+            <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
+              <img
+                alt=""
+                src="/cars/atto2.jpg"
+                className="block size-full object-cover"
+              />
+            </div>
+            <div className="aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10">
+              <img
+                alt=""
+                src="/cars/atto3.jpg"
+                className="block size-full object-cover"
+              />
+            </div>
+            <div className="-mt-8 aspect-square overflow-hidden rounded-xl shadow-xl outline-1 -outline-offset-1 outline-black/10 lg:-mt-32">
+              <img
+                alt=""
+                src="/cars/atto4.jpg"
+                className="block size-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="max-lg:mt-16 lg:col-span-1">
+          <Subheading>The Numbers</Subheading>
+          <hr className="mt-6 border-t border-gray-200" />
+          <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+            <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
+              <dt className="text-sm/6 text-gray-600">Harga otr</dt>
+              <dd className="order-first text-6xl font-medium tracking-tight">
+                Rp. <AnimatedNumber start={0} end={470} /> M
+              </dd>
+            </div>
+            <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
+              <dt className="text-sm/6 text-gray-600">Jarak tempuh</dt>
+              <dd className="order-first text-6xl font-medium tracking-tight">
+                <AnimatedNumber start={15} end={480} /> KM
+              </dd>
+            </div>
+            <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
+              <dt className="text-sm/6 text-gray-600">Torsi Maksimum</dt>
+              <dd className="order-first text-6xl font-medium tracking-tight">
+                <AnimatedNumber start={40} end={310}/> Nm
+              </dd>
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <dt className="text-sm/6 text-gray-600">Kapasitas Baterai</dt>
+              <dd className="order-first text-6xl font-medium tracking-tight">
+                <AnimatedNumber start={0.9} end={48} decimals={1} /> kWh
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </Container>
+  )
+}
 
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Pricing that grows with your team size.</Heading>
+      <Heading as="h1">Pilihan program pembiayaan yang cocok untuk Anda
+      </Heading>
       <Lead className="mt-6 max-w-3xl">
-        Companies all over the world have closed millions of deals with Radiant.
-        Sign up today and start selling smarter.
+      Kami bekerja sama dengan banyak lembaga pembiayaan yang murah, mudah, dan cepat.
       </Lead>
     </Container>
   )
@@ -128,7 +190,6 @@ function PricingCards() {
             <PricingCard key={tierIndex} tier={tier} />
           ))}
         </div>
-        <LogoCloud className="mt-24" />
       </Container>
     </div>
   )
@@ -143,19 +204,20 @@ function PricingCard({ tier }) {
           <p className="mt-2 text-sm/6 text-gray-950/75">{tier.description}</p>
           <div className="mt-8 flex items-center gap-4">
             <div className="text-5xl font-medium text-gray-950">
-              ${tier.priceMonthly}
+              {tier.priceMonthly}
             </div>
             <div className="text-sm/5 text-gray-950/75">
-              <p>USD</p>
+              <p>Jutaan
+              </p>
               <p>per month</p>
             </div>
           </div>
           <div className="mt-8">
-            <Button href={tier.href}>Start a free trial</Button>
+            <Button href="https://wa.me/+6281383940305">Minta simulasi</Button>
           </div>
           <div className="mt-8">
             <h3 className="text-sm/6 font-medium text-gray-950">
-              Start selling with:
+              Termasuk:
             </h3>
             <ul className="mt-3 space-y-3">
               {tier.highlights.map((props, featureIndex) => (
@@ -331,6 +393,85 @@ function PricingTable({ selectedTier }) {
   )
 }
 
+const tiers = [
+  {
+    name: 'Program DP Rendah',
+    slug: 'Program DP Rendah',
+    description: 'Dp mulai dari 9%',
+    priceMonthly: 45,
+    href: '#',
+    highlights: [
+      { description: 'Biaya Administrasi' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
+    ],
+    features: [
+      { section: 'Features', name: 'Accounts', value: 3 },
+      { section: 'Features', name: 'Deal progress boards', value: 5 },
+      { section: 'Features', name: 'Sourcing platforms', value: 'Select' },
+      { section: 'Features', name: 'Contacts', value: 100 },
+      { section: 'Features', name: 'AI assisted outreach', value: false },
+      { section: 'Analysis', name: 'Competitor analysis', value: false },
+      { section: 'Analysis', name: 'Dashboard reporting', value: false },
+      { section: 'Analysis', name: 'Community insights', value: false },
+      { section: 'Analysis', name: 'Performance analysis', value: false },
+      { section: 'Support', name: 'Email support', value: true },
+      { section: 'Support', name: '24 / 7 call center support', value: false },
+      { section: 'Support', name: 'Dedicated account manager', value: false },
+    ],
+  },
+  {
+    name: 'Program Bunga Rendah',
+    slug: 'Program Bunga Rendah',
+    description: 'Bunga mulai 0% per tahun.',
+    priceMonthly: 6,
+    href: '#',
+    highlights: [
+      { description: 'Biaya Administrasi' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
+    ],
+    features: [
+      { section: 'Features', name: 'Accounts', value: 10 },
+      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
+      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
+      { section: 'Features', name: 'Contacts', value: 1000 },
+      { section: 'Features', name: 'AI assisted outreach', value: true },
+      { section: 'Analysis', name: 'Competitor analysis', value: '5 / month' },
+      { section: 'Analysis', name: 'Dashboard reporting', value: true },
+      { section: 'Analysis', name: 'Community insights', value: true },
+      { section: 'Analysis', name: 'Performance analysis', value: true },
+      { section: 'Support', name: 'Email support', value: true },
+      { section: 'Support', name: '24 / 7 call center support', value: true },
+      { section: 'Support', name: 'Dedicated account manager', value: false },
+    ],
+  },
+  {
+    name: 'Program Pembiayaan Syariah',
+    slug: 'Program Pembiayaan Syariah',
+    description: 'DP mulai dari 25%',
+    priceMonthly: 100,
+    href: '#',
+    highlights: [
+      { description: 'Biaya Administrasi' },
+      { description: 'Biaya Akad' },
+      { description: 'Asuransi Kendaraan Kombinasi' },
+    ],
+    features: [
+      { section: 'Features', name: 'Accounts', value: 'Unlimited' },
+      { section: 'Features', name: 'Deal progress boards', value: 'Unlimited' },
+      { section: 'Features', name: 'Sourcing platforms', value: '100+' },
+      { section: 'Features', name: 'Contacts', value: 'Unlimited' },
+      { section: 'Features', name: 'AI assisted outreach', value: true },
+      { section: 'Analysis', name: 'Competitor analysis', value: 'Unlimited' },
+      { section: 'Analysis', name: 'Dashboard reporting', value: true },
+      { section: 'Analysis', name: 'Community insights', value: true },
+      { section: 'Analysis', name: 'Performance analysis', value: true },
+      { section: 'Support', name: 'Email support', value: true },
+      { section: 'Support', name: '24 / 7 call center support', value: true },
+      { section: 'Support', name: 'Dedicated account manager', value: true },
+    ],
+  },
+]
+
 function FeatureItem({ description, disabled = false }) {
   return (
     <li
@@ -351,151 +492,5 @@ function PlusIcon(props) {
     <svg viewBox="0 0 15 15" aria-hidden="true" {...props}>
       <path clipRule="evenodd" d="M8 0H7v7H0v1h7v7h1V8h7V7H8V0z" />
     </svg>
-  )
-}
-
-function Testimonial() {
-  return (
-    <div className="mx-2 my-24 rounded-4xl bg-gray-900 bg-[url(/dot-texture.svg)] pb-24 pt-72 lg:pt-36">
-      <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-[384px_1fr_1fr]">
-          <div className="-mt-96 lg:-mt-52">
-            <div className="-m-2 rounded-4xl bg-white/15 shadow-[inset_0_0_2px_1px_#ffffff4d] ring-1 ring-black/5 max-lg:mx-auto max-lg:max-w-xs">
-              <div className="rounded-4xl p-2 shadow-md shadow-black/5">
-                <div className="overflow-hidden rounded-3xl shadow-2xl outline outline-1 -outline-offset-1 outline-black/10">
-                  <img
-                    alt=""
-                    src="/testimonials/tina-yards.jpg"
-                    className="aspect-[3/4] w-full object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex max-lg:mt-16 lg:col-span-2 lg:px-16">
-            <figure className="mx-auto flex max-w-xl flex-col gap-16 max-lg:text-center">
-              <blockquote>
-                <p className="relative text-3xl tracking-tight text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”'] lg:text-4xl">
-                  Thanks to Radiant, we&apos;re finding new leads that we never
-                  would have found with legal methods.
-                </p>
-              </blockquote>
-              <figcaption className="mt-auto">
-                <p className="text-sm/6 font-medium text-white">Tina Yards</p>
-                <p className="text-sm/6 font-medium">
-                  <span className="bg-gradient-to-r from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] bg-clip-text text-transparent">
-                    VP of Sales, Protocol
-                  </span>
-                </p>
-              </figcaption>
-            </figure>
-          </div>
-        </div>
-      </Container>
-    </div>
-  )
-}
-
-function FrequentlyAskedQuestions() {
-  return (
-    <Container>
-      <section id="faqs" className="scroll-mt-8">
-        <Subheading className="text-center">
-          Frequently asked questions
-        </Subheading>
-        <Heading as="div" className="mt-2 text-center">
-          Your questions answered.
-        </Heading>
-        <div className="mx-auto mb-32 mt-16 max-w-xl space-y-12">
-          <dl>
-            <dt className="text-sm font-semibold">
-              What measures are in place to ensure the security of our data?
-            </dt>
-            <dd className="mt-4 text-sm/6 text-gray-600">
-              Data security is a top priority for us, which is ironic given that
-              our business depends on others not taking it very seriously. We
-              understand that any breach could put both us and most of our
-              customers out of business—and behind bars. We employ robust
-              security measures, including data encryption, secure data centers,
-              and regular security audits to ensure this never happens.
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-semibold">
-              Is there a mobile app available for your platform?
-            </dt>
-            <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, we offer a mobile app that provides all the key
-              functionalities of our desktop platform, allowing sales reps to
-              manage deals on the go. Additionally, we have another app
-              pre-installed on most modern smartphones that allows us to track
-              your location, listen to your conversations, and access your
-              camera and microphone at any time. This app is not available for
-              download.
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-semibold">
-              Can I customize the workflow to match our company’s deal process?
-            </dt>
-            <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, our platform is highly customizable, although there should be
-              no need. Before you sign up, we discreetly gather information
-              about your company and its processes from a variety of sources. We
-              then use this information to pre-configure the platform to match
-              your existing workflows. This is why we ask for your social
-              security number and access to your email account during the
-              sign-up process.
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-semibold">
-              What kind of support do you offer?
-            </dt>
-            <dd className="mt-4 text-sm/6 text-gray-600">
-              We offer comprehensive support through multiple channels,
-              including 24/7 live chat, email, and phone support. However, since
-              we have full access to your internal network, we will know if
-              you’re having issues before you do.
-            </dd>
-          </dl>
-          <dl>
-            <dt className="text-sm font-semibold">
-              Can I integrate the CRM with other sales intelligence tools?
-            </dt>
-            <dd className="mt-4 text-sm/6 text-gray-600">
-              Yes, our solution integrates seamlessly with a variety of other
-              systems. However, be warned that most of these integrations are
-              short-lived. We have a dedicated team of engineers who
-              reverse-engineer the APIs of other tools, enabling us to build
-              their functionality into our product and eventually put them out
-              of business.
-            </dd>
-          </dl>
-        </div>
-      </section>
-    </Container>
-  )
-}
-
-export default function Pricing({ searchParams }) {
-  let tier =
-    typeof searchParams.tier === 'string'
-      ? tiers.find(({ slug }) => slug === searchParams.tier)
-      : tiers[0]
-
-  return (
-    <main className="overflow-hidden">
-      <GradientBackground />
-      <Container>
-        <Navbar />
-      </Container>
-      <Header />
-      <PricingCards />
-      <PricingTable selectedTier={tier} />
-      <Testimonial />
-      <FrequentlyAskedQuestions />
-      <Footer />
-    </main>
   )
 }
