@@ -223,15 +223,14 @@ function Profil() {
             <figure className="mx-auto flex max-w-xl flex-col gap-16 max-lg:text-center">
               <blockquote>
                 <p className="relative text-3xl tracking-tight text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”'] lg:text-4xl">
-                  Thanks to Radiant, we&apos;re finding new leads that we never
-                  would have found with legal methods.
+                Suatu kebanggaan bisa memberikan pelayanan terbaik kepada para konsumen BYD Indonesia.
                 </p>
               </blockquote>
               <figcaption className="mt-auto">
-                <p className="text-sm/6 font-medium text-white">Fidi Afif</p>
+                <p className="text-sm/6 font-medium text-white">FidiAfif</p>
                 <p className="text-sm/6 font-medium">
                   <span className="bg-gradient-to-r from-[#fff1be] from-[28%] via-[#ee87cb] via-[70%] to-[#b060ff] bg-clip-text text-transparent">
-                    BYDSales of BYD
+                  BYD Brand Consultant
                   </span>
                 </p>
               </figcaption>
