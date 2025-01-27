@@ -41,7 +41,7 @@ function HeroM6() {
             </a>
           }
         />
-        <div className="pt-60 text-center">
+        <div className="mt-28 pt-80 text-center">
           <span className="text-xs uppercase font-semibold text-white tracking-wide inline-flex items-center gap-2">
             <span className="block w-1 h-3 bg-blue-500"></span> Elevating Driving Experience
           </span>
