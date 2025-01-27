@@ -74,78 +74,52 @@ function DesktopNav() {
 function MobileNavButton() {
   return (
     <DisclosureButton
-      className="flex size-12 items-center justify-center self-center rounded-lg bg-white data-[hover]:bg-white/90 lg:hidden"
+      className="flex items-center px-4 py-3 text-base font-medium bg-blend-multiply text-white data-[hover]:bg-white/[2.5%] lg:hidden"
       aria-label="Open main menu"
     >
-      <Bars2Icon className="size-6" />
+      <span>Model</span>
+      <ChevronDownIcon className="ml-1 size-4 fill-white" />
     </DisclosureButton>
-  )
+  );
 }
 
 function MobileNav() {
   return (
-    <DisclosurePanel className="lg:hidden">
-      <div className="flex flex-col gap-6 py-4">
-        <Menu>
-          <MenuButton className="flex items-center text-base font-medium text-white">
-            Model
-            <ChevronDownIcon className="ml-1 size-4 fill-white/60" />
-          </MenuButton>
-          <MenuItems
-            transition
-            anchor="bottom start"
-            className="w-52 origin-top-right rounded-xl border border-white/5 bg-white/20 p-1 text-sm/6 text-white focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
-          >
-            <MenuItem>
-              <Link
-                href="/byd-sealion-7"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD Sealion 7
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-atto-3"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD Atto 3
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-m6"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD M6
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-seal"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD Seal
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-dolphin"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD Dolphin
-              </Link>
-            </MenuItem>
-          </MenuItems>
-        </Menu>
+    <DisclosurePanel className="lg:hidden relative">
+      <div className="absolute top-full mt-1 w-52 bg-white/10 rounded-lg border border-white/10 p-2 right-0">
+        <Link
+          href="/byd-m6"
+          className="block px-3 py-2 text-sm text-white rounded-md hover:bg-white/20"
+        >
+          BYD M6
+        </Link>
+        <Link
+          href="/byd-atto-3"
+          className="block px-3 py-2 text-sm text-white rounded-md hover:bg-white/20"
+        >
+          BYD Atto 3
+        </Link>
+        <Link
+          href="/byd-seal"
+          className="block px-3 py-2 text-sm text-white rounded-md hover:bg-white/20"
+        >
+          BYD Seal
+        </Link>
+        <Link
+          href="/byd-dolphin"
+          className="block px-3 py-2 text-sm text-white rounded-md hover:bg-white/20"
+        >
+          BYD Dolphin
+        </Link>
       </div>
     </DisclosurePanel>
-  )
+  );
 }
+
 
 export function Navbar({ banner }) {
   return (
-    <Disclosure as="header" className="pt-12 sm:pt-16">
+    <Disclosure as="header" className="pt-6 sm:pt-8">
       <PlusGrid>
         <PlusGridRow className="relative flex justify-between">
           <div className="relative flex gap-6">
@@ -166,5 +140,5 @@ export function Navbar({ banner }) {
       </PlusGrid>
       <MobileNav />
     </Disclosure>
-  )
+  );
 }
