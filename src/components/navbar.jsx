@@ -19,56 +19,34 @@ function DesktopNav() {
   return (
     <nav className="relative hidden lg:flex">
       <PlusGridItem className="relative flex">
-        <Menu>
-          <MenuButton
-            className="flex items-center px-4 py-3 text-base font-medium bg-blend-multiply text-white data-[hover]:bg-white/[2.5%]"
+        <div className="relative group">
+          <div
+            className="flex items-center px-4 py-3 text-base font-medium bg-blend-multiply text-white group-hover:bg-white/[2.5%]"
           >
             Model
             <ChevronDownIcon className="ml-1 size-4 fill-white/60" />
-          </MenuButton>
+          </div>
 
-          <MenuItems
-            transition
-            anchor="bottom end"
-            className="absolute z-50 w-52 origin-top-right rounded-xl border border-white/5 bg-white/20 p-1 text-sm/6 text-white focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
+          <div
+            className="absolute z-50 hidden w-52 origin-top-right rounded-xl border border-white/5 bg-white/20 p-1 text-sm/6 text-white focus:outline-none group-hover:block"
           >
-            <MenuItem>
-              <Link
-                href="/byd-m6"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD M6
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-atto-3"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD ATTO 3
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-seal"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD SEAL
-              </Link>
-            </MenuItem>
-            <MenuItem>
-              <Link
-                href="/byd-dolphin"
-                className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10"
-              >
-                BYD DOLPHIN
-              </Link>
-            </MenuItem>
-          </MenuItems>
-        </Menu>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-m6">BYD M6</Link>
+            </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-atto-3">BYD ATTO 3</Link>
+            </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-seal">BYD SEAL</Link>
+            </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-dolphin">BYD DOLPHIN</Link>
+            </div>
+          </div>
+        </div>
       </PlusGridItem>
     </nav>
-  )
+  );
 }
 
 function MobileNavButton() {
