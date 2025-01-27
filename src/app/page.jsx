@@ -12,7 +12,7 @@ import { Heading, Lead, Subheading } from '@/components/text'
 
 export const metadata = {
   description:
-    'Radiant helps you sell more by revealing sensitive information about your customers.',
+    'BYD Bogor menyediakan mobil listrik terbaik di Indonesia. Dapatkan mobil listrik BYD dengan harga terjangkau dan kualitas terbaik.',
 }
 
 // function Hero() {
