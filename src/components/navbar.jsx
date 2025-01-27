@@ -30,7 +30,7 @@ function DesktopNav() {
           <MenuItems
             transition
             anchor="bottom end"
-            className="w-52 origin-top-right rounded-xl border border-white/5 bg-white/20 p-1 text-sm/6 text-white focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
+            className="absolute z-50 w-52 origin-top-right rounded-xl border border-white/5 bg-white/20 p-1 text-sm/6 text-white focus:outline-none data-[closed]:scale-95 data-[closed]:opacity-0"
           >
             <MenuItem>
               <Link
@@ -119,7 +119,7 @@ function MobileNav() {
 
 export function Navbar({ banner }) {
   return (
-    <Disclosure as="header" className="pt-6 sm:pt-8">
+    <Disclosure as="header" className="relative z-50 pt-6 sm:pt-8">
       <PlusGrid>
         <PlusGridRow className="relative flex justify-between">
           <div className="relative flex gap-6">

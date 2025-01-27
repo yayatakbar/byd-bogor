@@ -23,7 +23,7 @@ export const metadata = {
 
 function HeroSeal() {
   return (
-    <div className="relative">
+    <div className="relative min-h-screen">
       {/* Latar Belakang Video */}
       <VideoBackground videoSrc="background seal.mp4" />
       <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>

@@ -26,22 +26,41 @@ export function GradientBackground() {
   )
 }
 
+// export function VideoBackground({ videoSrc }) {
+//   return (
+//     <div className="absolute inset-0 bottom-0 overflow-hidden ring-1 ring-inset ring-black/5">
+//       <div className="relative h-full w-full">
+//         <video
+//           className="absolute left-0 top-0 h-full w-full object-cover"
+//           autoPlay
+//           muted
+//           loop
+//           playsInline
+//           controls={false}
+//         >
+//           <source src={videoSrc} type="video/mp4" />
+//         </video>
+//         <div className="absolute h-full w-full bg-black/30" />
+//       </div>
+//     </div>
+//   )
+// }
+
 export function VideoBackground({ videoSrc }) {
   return (
-    <div className="absolute inset-0 bottom-0 overflow-hidden ring-1 ring-inset ring-black/5">
+    <div className="absolute inset-0 overflow-hidden">
       <div className="relative h-full w-full">
         <video
-          className="absolute left-0 top-0 h-full w-full object-cover"
+          className="absolute inset-0 h-full w-full object-cover"
           autoPlay
           muted
           loop
-          playsInline
           controls={false}
         >
           <source src={videoSrc} type="video/mp4" />
         </video>
-        <div className="absolute h-full w-full bg-black/30" />
+        <div className="absolute inset-0 bg-black/70" />
       </div>
     </div>
-  )
+  );
 }

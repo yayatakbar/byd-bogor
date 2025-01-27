@@ -15,13 +15,52 @@ export const metadata = {
     'Radiant helps you sell more by revealing sensitive information about your customers.',
 }
 
+// function Hero() {
+//   return (
+//     <div className="relative">
+//       {/* Latar Belakang Video */}
+//       <VideoBackground videoSrc="home background video.mp4"/>
+//       <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>
+//       <Container className="relative">
+//         <Navbar
+//           banner={
+//             <a
+//               href="https://wa.me/+6281383940305"
+//               target="_blank"
+//               className="flex items-center gap-1 rounded-full bg-white/35 px-3 py-0.5 text-sm/6 font-medium text-white hover:bg-fuchsia-950/30"
+//             >
+//               Hubungi melalui WhatsApp
+//               <ChevronRightIcon className="size-4" />
+//             </a>
+//           }
+//         />
+//         <div className="pt-60 text-center">
+//           <span className="text-xs uppercase font-semibold text-white tracking-wide inline-flex items-center gap-2">
+//             <span className="block w-1 h-3 bg-red-500"></span> Kepemilikan Mobil di Luar Sekadar Mengemudi
+//           </span>
+//           <h1 className="mt-3 font-display text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-4xl">
+//             Lebih Dari Sekadar Mobil
+//           </h1>
+//           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
+//             Rasakan dimensi baru dalam memiliki mobil BYD, di mana menjadi pemilik mobil berarti lebih dari sekadar mengemudi.
+//           </p>
+//           <div className="mt-6 flex justify-center">
+//             <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+//               Pesan Test Drive →
+//             </Button>
+//           </div>
+//         </div>
+//       </Container>
+//     </div>
+//   );
+// }
+
 function Hero() {
   return (
-    <div className="relative">
-      {/* Latar Belakang Video */}
+    <div className="relative min-h-screen">
       <VideoBackground videoSrc="home background video.mp4"/>
       <div className="absolute bottom-0 left-0 right-0 h-36 bg-gradient-to-b from-transparent to-black"></div>
-      <Container className="relative">
+      <Container className="relative z-10">
         <Navbar
           banner={
             <a
@@ -45,7 +84,11 @@ function Hero() {
             Rasakan dimensi baru dalam memiliki mobil BYD, di mana menjadi pemilik mobil berarti lebih dari sekadar mengemudi.
           </p>
           <div className="mt-6 flex justify-center">
-            <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+            <Button
+              variant="primary"
+              href="https://wa.me/+6281383940305"
+              className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600"
+            >
               Pesan Test Drive →
             </Button>
           </div>
