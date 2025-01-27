@@ -206,11 +206,16 @@ function PricingCard({ tier }) {
             <div className="text-5xl font-medium text-gray-950">
               {tier.priceMonthly}
             </div>
-            <div className="text-sm/5 text-gray-950/75">
-              <p>Jutaan
-              </p>
-              <p>per month</p>
+            {tier.name === "Program Bunga Rendah" ? (
+              <div className="text-lg text-gray-950/75">
+              <p>Jutaan</p>
+              <p>Per Bulan</p>
             </div>
+            ) : (
+              <div className="text-lg text-gray-950">
+              <p>Jutaan</p>
+            </div>
+            )}
           </div>
           <div className="mt-8">
             <Button href="https://wa.me/+6281383940305">Minta simulasi</Button>
