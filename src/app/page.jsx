@@ -73,7 +73,7 @@ function Hero() {
             </a>
           }
         />
-        <div className="sm:mt-27 lg:mt-32 pt-80 text-center">
+        <div className="sm:mt-26 lg:mt-32 md-31 pt-80 text-center">
           <span className="text-xs uppercase font-semibold text-white tracking-wide inline-flex items-center gap-2">
             <span className="block w-1 h-3 bg-red-500"></span> Kepemilikan Mobil di Luar Sekadar Mengemudi
           </span>
