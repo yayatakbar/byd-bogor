@@ -9,7 +9,7 @@ import { Navbar } from '@/components/navbar'
 import { Testimonials } from '@/components/testimonials'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import { Heading, Lead, Subheading } from '@/components/text'
-import GtagScript from '@/app/gtag';
+import { useEffect } from "react";
 
 export const metadata = {
   description:
@@ -108,9 +108,27 @@ function GradientTransition() {
 }
 
 export default function Home() {
+
+  useEffect(() => {
+    // Tambahkan script gtag.js ke head
+    const gtagScript = document.createElement("script");
+    gtagScript.src = "https://www.googletagmanager.com/gtag/js?id=AW-16960746136";
+    gtagScript.async = true;
+    document.head.appendChild(gtagScript);
+
+    // Tambahkan script konfigurasi gtag
+    const configScript = document.createElement("script");
+    configScript.innerHTML = `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16960746136');
+    `;
+    document.head.appendChild(configScript);
+  }, []);
+
   return (
     <div className="overflow-hidden">
-      <GtagScript />
       <Hero />
       {/* Tambahkan transisi gradien */}
       <GradientTransition />

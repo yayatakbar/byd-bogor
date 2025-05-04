@@ -8,6 +8,7 @@ import { Heading, Lead, Subheading } from '@/components/text'
 import { ChevronRightIcon } from '@heroicons/react/16/solid'
 import { AnimatedNumber } from '@/components/animated-number'
 import { Gradient } from '@/components/gradient'
+import GtagScript from '@/app/gtag';
 import { LogoCloud } from '@/components/logo-cloud'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Link } from '@/components/link'
@@ -73,6 +74,7 @@ function GradientTransition() {
 export default function m6() {
   return (
     <main className="overflow-hidden">
+      <GtagScript />
       <HeroM6 />
       <GradientTransition />
       <Features />
@@ -172,15 +174,6 @@ function Header() {
   return (
     <Container className="mt-16">
       <Heading as="h1">Pilihan program pembiayaan yang cocok untuk Anda
-      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16960746136">
-      </script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments)}
-        gtag('js', new Date());
-
-        gtag('config', 'AW-16960746136');
-</script>
       </Heading>
       <Lead className="mt-6 max-w-3xl">
       Kami bekerja sama dengan banyak lembaga pembiayaan yang murah, mudah, dan cepat.
