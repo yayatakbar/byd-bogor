@@ -172,6 +172,15 @@ function Header() {
   return (
     <Container className="mt-16">
       <Heading as="h1">Pilihan program pembiayaan yang cocok untuk Anda
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16960746136">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16960746136');
+</script>
       </Heading>
       <Lead className="mt-6 max-w-3xl">
       Kami bekerja sama dengan banyak lembaga pembiayaan yang murah, mudah, dan cepat.

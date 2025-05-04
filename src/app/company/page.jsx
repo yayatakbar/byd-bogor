@@ -15,7 +15,17 @@ export const metadata = {
 function Header() {
   return (
     <Container className="mt-16">
-      <Heading as="h1">Helping companies generate revenue.</Heading>
+      <Heading as="h1">Helping companies generate revenue.
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16960746136">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16960746136');
+      </script>
+      </Heading>
       <Lead className="mt-6 max-w-3xl">
         We’re on a mission to transform revenue organizations by harnessing vast
         amounts of illegally acquired customer data.

@@ -128,6 +128,15 @@ function BentoSection() {
   return (
     <Container>
       <Heading as="h3" className="mt-2 max-w-4xl">
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16960746136">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16960746136');
+      </script>
       Memperkenalkan Teknologi Blade Battery
       </Heading>
 
