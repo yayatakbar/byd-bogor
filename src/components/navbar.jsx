@@ -42,6 +42,15 @@ function DesktopNav() {
             <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
               <Link href="/byd-dolphin">BYD DOLPHIN</Link>
             </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-dolphin">BYD DOLPHIN</Link>
+            </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-sealion-7">BYD SEALION 7</Link>
+            </div>
+            <div className="group flex w-full items-center gap-2 rounded-lg px-3 py-1.5 data-[focus]:bg-white/10">
+              <Link href="/byd-denza-d9">BYD DENZA D9</Link>
+            </div>
           </div>
         </div>
       </PlusGridItem>
