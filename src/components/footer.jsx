@@ -20,7 +20,7 @@ function CallToAction() {
       <div className="mt-6">
         <Button
           className="w-full sm:w-auto"
-          href="https://wa.me/+6281383940305"
+          href="https://wa.me/+6285811513023"
           target="_blank"
         >
           Hubungi Melalui WhatsApp

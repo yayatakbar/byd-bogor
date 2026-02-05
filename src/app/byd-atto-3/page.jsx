@@ -33,7 +33,7 @@ function HeroM6() {
         <Navbar
           banner={
             <a
-              href="https://wa.me/+6281383940305"
+              href="https://wa.me/+6285811513023"
               target="_blank"
               className="flex items-center gap-1 rounded-full bg-white/35 px-3 py-0.5 text-sm/6 font-medium text-white hover:bg-fuchsia-950/30"
             >
