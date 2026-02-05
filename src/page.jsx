@@ -87,7 +87,7 @@ function Hero() {
           <div className="mt-6 flex justify-center">
             <Button
               variant="primary"
-              href="https://wa.me/+6281383940305"
+              href="https://wa.me/+6285811513023"
               className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600"
             >
               Pesan Test Drive →

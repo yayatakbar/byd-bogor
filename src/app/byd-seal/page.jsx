@@ -49,7 +49,7 @@ function HeroSeal() {
             BYD SEAL
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
-          From Rp. 635.000.000
+          From Rp. 639.000.000
           </p>
           <div className="mt-6 flex justify-center">
             <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">

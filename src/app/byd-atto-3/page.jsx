@@ -50,10 +50,10 @@ function HeroM6() {
             BYD ATTO 3
           </h1>
           <p className="mt-4 max-w-2xl mx-auto text-sm font-medium text-white/75 sm:text-base">
-          From Rp. 470.000.000
+          From Rp. 390.000.000
           </p>
           <div className="mt-6 flex justify-center">
-            <Button variant="primary" href="https://wa.me/+6281383940305" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
+            <Button variant="primary" href="https://wa.me/+6285811513023" className="bg-red-500 text-white px-5 py-2 rounded-full text-sm hover:bg-red-600">
               Pesan Test Drive →
             </Button>
           </div>
